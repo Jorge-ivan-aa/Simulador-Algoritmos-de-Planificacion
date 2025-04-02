@@ -4,25 +4,27 @@
 
 ---
 
-![Imagen del simulador](image.png)
+![Imagen de interfaz del simulador](image.png)
+
+---
 
 ## Explicación del codigo
 
-El programa fue escrito en Python y se divide en 2 partes
+El programa fué escrito en Python y se divide en 2 partes
 fundamentalmente:
 
-- La logica que provee la clase `Proceso` en el fichero
-`modules/proceso.py`.
+- La lógica que provee la clase `Proceso` en el fichero
+`modules/proceso.py`
 
-- La interfaz gráfica, que se es simplemente un envoltorio
-para la logica, que pertenece a la clase `MainWindow` en el
-fichero `modules/client.py`
+- La interfaz gráfica, simplemente un envoltorio para la lógica,
+que pertenece a la clase `MainWindow` en el fichero
+`modules/client.py`
 
-En este documento voy a explicar solo la parte logica que
+En este documento voy a explicar unicamente la parte lógica que
 es la determinante en la simulación de los algoritmos de
 planificación de procesos.
 
-### proceso.py
+### Análisis de metodos en proceso.py
 
 #### FCFS (First-Come, First-Served)
 
@@ -193,7 +195,6 @@ Implementa un **planificador con gestión de memoria fija (FMS)**. Filtra los pr
 | **Prioridad**   | 1.6          | 2.8           | 2 → 5 → 4 → 3 → 1        | Prioridad 1 (menor=número) domina    |
 | **FMS (300MB)** | 1.0          | 2.0           | 1 → 2 → 5 → 4            | Proceso 3 (500MB) se excluye          |
 
----
 
 ### Preguntas de Análisis
 

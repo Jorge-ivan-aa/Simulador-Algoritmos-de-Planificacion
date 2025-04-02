@@ -19,8 +19,8 @@ shiboken6==6.8.3
 1. **Clona el repositorio o descarga el código fuente**:
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_PROYECTO>
+   git clone https://github.com/Jorge-ivan-aa/Simulador-Algoritmos-de-Planificacion
+   cd Simulador-Algoritmos-de-Planificacion
    ```
 
 2. **Crea un entorno virtual (opcional pero recomendado)**:
